@@ -23,6 +23,6 @@ end
 def get_english_meaning(file, japanese)
   library = load_library(file)
   emoticon = library.keys.find do |key|
-    library[key][:english] == emoticion 
+    library[key][:english] == emoticion
   end 
 end
