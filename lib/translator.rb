@@ -9,7 +9,6 @@ def load_library(file)
       :japanese => value[1]
     }
   end
-  emoticon
 end
 
 def get_japanese_emoticon
