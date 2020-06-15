@@ -18,4 +18,5 @@ end
 
 def get_english_meaning(file, japanese)
   emoticon = load_library(file)
+  if library[emotion][:japanese]
 end
