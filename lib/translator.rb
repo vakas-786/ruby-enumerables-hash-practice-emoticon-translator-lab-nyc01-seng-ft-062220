@@ -21,8 +21,5 @@ emoticon ? library[emoticon][:japanese] "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(file, japanese)
-  emoticon = load_library(file)
-  if library[emotion][:japanese] == japanese
-    emoticion = emotion.to_s
-  end
+  
 end
