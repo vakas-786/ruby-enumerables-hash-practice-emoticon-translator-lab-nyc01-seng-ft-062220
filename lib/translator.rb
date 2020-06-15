@@ -5,7 +5,7 @@ def load_library(file)
   emoticon = {}
   emoticon_hash.each do |key, value|
     emoticon[key] = {
-      :english => value[0]
+      :english => value[0],
       :japanese => value[1]
     }
   end
