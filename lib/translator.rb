@@ -21,5 +21,4 @@ def get_english_meaning(file, japanese)
   if library[emotion][:japanese] == japanese
     emoticion = emotion.to_s
   end
-end 
 end
