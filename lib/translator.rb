@@ -2,6 +2,10 @@
 require 'yaml'
 def load_library(file)
   emoticon_hash = YAML.load_file(file)
+  emoticon = {}
+  emoticon_hash.each do |key, value|
+    emoticon[key]
+  end
 end
 
 def get_japanese_emoticon
