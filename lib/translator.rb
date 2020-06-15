@@ -13,7 +13,7 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file, english)
-  emoticon = load_library(file)
+  library = load_library(file)
 end
 
 def get_english_meaning(file, japanese)
